@@ -1,0 +1,92 @@
+Ubuntu sofware center 			#chromium web browser
+
+# sublime-text-2
+http://stackoverflow.com/questions/17537867/how-to-update-sublime-text-2-on-ubuntu-12-04
+#sublime-text-2 package controll installation
+https://sublime.wbond.net/installation#st2
+
+
+
+http://git-scm.com/download/linux       # download git
+
+# install version of ruby
+sudo apt-get install ruby1.9.3 # or 2.0.0
+# `sudo apt-get uninstall ruby` # to delete ruby environment
+
+# had to be run before successful execution on localhost:9393
+gem install activesupport -v '4.0.0'
+
+Installing Node JS
+http://stackoverflow.com/questions/16302436/install-nodejs-on-ubuntu-12-10
+
+
+
+# SCSS + Compass  # PS DON'T HAVE A WATCH IN DIRECTORY WITH PROTECTED FILES ELSE IT WILL BLOW UP
+http://ndever.net/articles/linux/installing-sass-and-compass-ubuntu-1210-1304
+ 
+	
+				
+https://rvm.io/rvm/install					# Ruby RVM
+http://net.tutsplus.com/tutorials/why-you-should-use-rvm/ 	# About RVM
+
+
+
+sudo gem install shotgun 		# shotgun install
+
+
+# Install Post-GRESQL Database
+# begin *******************************************************************************
+#http://wikimatze.de/installing-postgresql-gem-under-ubuntu-and-mac.html
+#It is easier because you only have to install the right packages:
+
+sudo apt-get install postgresql
+sudo apt-get install libpq-dev
+sudo gem install pg 
+# end   **************************************************************************
+
+# Linux Homebrew
+# begin **************************************************************************
+https://github.com/Homebrew/linuxbrew   # Linux Homebrew
+http://braumeister.org/                 # search for any downloadables in brew
+# end   **************************************************************************
+
+
+http://bundler.io/			# ruby bundler
+
+# append My shotcuts and aliases to .bashrc
+# ie 
+cd ~
+echo "alias sg='killall shotgun; shotgun'" >> .bashrc
+
+
+
+# Heroku installation after going to Heroku home page and creating profile
+https://devcenter.heroku.com/articles/ruby     --->(Heroku Toolbelt)
+
+# Heroku 101
+# https://devcenter.heroku.com/articles/quickstart
+
+# Installing postgreSQL onto computer
+#http://stackoverflow.com/questions/11092807/installing-postgresql-on-ubuntu-for-ruby-on-rails
+
+# installing rails 
+sudo gem install -v=3.2.11 rails
+
+# installing rspec
+gem install rspec
+
+# installing guard for auto running rspec tests on changed code
+gem install guard-rspec
+
+# install travis for auto-deployment to web-host upon successful build 
+gem install travis # travis CLI
+
+
+
+
+# create rails skeleton
+# rails _3.2.13_ new Joe_Sample -T --database=postgresql
+
+
+
+

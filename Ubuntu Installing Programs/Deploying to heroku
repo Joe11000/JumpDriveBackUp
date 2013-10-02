@@ -1,0 +1,8 @@
+#https://devcenter.heroku.com/articles/ruby
+
+#log into heroku
+heroku login    
+#joenoonan27@gmail.com  -> @eiu.edu password encased in {}
+
+
+

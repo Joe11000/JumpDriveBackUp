@@ -1,0 +1,32 @@
+# sublime 2
+http://stackoverflow.com/questions/17537867/how-to-update-sublime-text-2-on-ubuntu-12-04
+
+
+Ubuntu sofware center 			#chromium web browser
+
+
+http://git-scm.com/download/linux       # git
+
+
+https://github.com/Homebrew/linuxbrew   # Linux Homebrew
+http://braumeister.org/                 # search for any downloadables in brew
+
+# SCSS + Compass  # PS DON'T HAVE A WATCH IN DIRECTORY WITH PROTECTED FILES ELSE IT WILL BLOW UP
+http://ndever.net/articles/linux/installing-sass-and-compass-ubuntu-1210-1304
+ 
+					
+https://rvm.io/rvm/install					# Ruby RVM
+http://net.tutsplus.com/tutorials/why-you-should-use-rvm/ 	# About RVM
+
+
+sudo gem install shotgun 		# shotgun install
+
+
+# append My shotcuts and aliases to .bashrc
+# ie 
+cd 
+echo "alias sg='killall shotgun; shotgun'" >> .bashrc
+
+
+
+
